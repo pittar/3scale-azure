@@ -98,7 +98,7 @@ oc new-app 3scale-api-management-eval \
     -p WILDCARD_DOMAIN=40.121.63.74.nip.io \
     -p ADMIN_PASSWORD=password \
     -p MASTER_PASSWORD=password \
-    -p RWX_STORAGE_CLASS=azuzrefile
+    -p RWX_STORAGE_CLASS=azurefile
 ```
 
 
