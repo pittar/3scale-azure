@@ -12,7 +12,7 @@ First, create a new project:
 ```oc new-project 3scale```
 
 Next, you will need a registry access token to pull images from the Red Hat registry.
-* Create a [https://access.redhat.com/terms-based-registry](service account here) and download the `OpenShift Secret` to a local directory.
+* Create a (https://access.redhat.com/terms-based-registry)[service account here] and download the `OpenShift Secret` to a local directory.
 
 Create this secret in your 3Scale project:
 ```oc apply -f <token yaml file name> -n 3scale```
